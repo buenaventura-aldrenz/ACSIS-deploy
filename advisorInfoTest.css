@@ -1,0 +1,125 @@
+.formList{
+    height: 10px;
+}
+
+.stakeholder-info {
+    font-weight: bold;
+}
+
+.ac {
+    margin-right: 50px;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.twg {
+    margin-right: 50px;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.psmu {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.duration-info {
+    font-weight: bold;
+}
+
+.start-date {
+    font-size: 13px;
+}
+
+.acposition-info {
+    font-weight: bold;
+}
+
+.office-name {
+    margin-right: 275px;
+    font-weight: bold;
+}
+
+.office-address {
+    font-weight: bold;
+}
+
+.office-name2 {
+    margin-right: 120px;
+}
+
+.primary-info {
+    margin-right: 120px;
+    font-weight: bold;
+}
+
+.secondary-info {
+    margin-right: 120px;
+    font-weight: bold;
+}
+
+.tertiary-info {
+    margin-right: 120px;
+    font-weight: bold;
+}
+
+.quarternary-info {
+    font-weight: bold;
+}
+
+.primary {
+    margin-right: 115px;
+}
+
+.secondary {
+    margin-right: 138px;
+}
+
+.tertiary {
+    margin-right: 112px;
+}
+
+.acsector-info{
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 250px;
+    padding: 16px 20px;
+    border-style: solid;
+    background-color: #f1f1f1;
+    border-color: black;
+    border-width: 2px;
+    height: 25px;
+}
+
+input[type="date"] {
+        padding: 16px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color:#f1f1f1;
+        border-color: black;
+        border-width: 2px;
+        height: 25px;
+}
+
+select {
+    width: 150px;
+    height: 25px;
+    padding: 16px 20px;
+    border-style: solid ;
+    border-radius: 4px;
+    border-color: black;
+    border-width: 2px;
+    background-color: #f1f1f1;
+}
+
+input[type="submit"] {
+    font-size: 14px;
+    background: #1b015c;
+    color: white;
+    padding: 7px;
+    width: 100px;
+    cursor: pointer;
+}
+

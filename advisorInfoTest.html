@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/loading.css">
+    <link rel="stylesheet" href="../css/advisorInfo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Wrapper Nav -->
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="#"><img src="../images/patrolplan.png"></a></div>
+                <div class="title"><a href="#">
+                    AC-SIS STAKEHOLDER<br />
+                    INFORMAITON SYSTEM</a></div>
+                <ul class="links">
+                    <li><a href="home.html">Home</a></li>
+
+                    <!-- Dropdown start -->
+                    <li>
+                        <a href="#" class="desktop-link">Stakeholder</a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">Stakeholder</label>
+                        <ul>
+                            <li><a href="advisorList.html">Advisor List</a></li>
+                            <li><a href="addAdvisor.html">Add Advisor</a></li>
+                            <li><a href="advisorInfo.html">Stakeholder Information</a></li>
+                            <li><a href="stakeholderProfile.html">Stakeholder Profile</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Dropdown End -->
+                    <li>
+                        <a href="#" class="desktop-link">Activity</a>
+                        <input type="checkbox" id="show-services">
+                        <label for="show-services">Activity</label>
+                        <ul>
+                            <li><a href="activity.html">Activity test 1</a></li>
+                            <li><a href="#">Drop Menu 2</a></li>
+                            <li><a href="#">Drop Menu 3</a></li>
+                            <li>
+                                <a href="#" class="desktop-link">More Items</a>
+                                <input type="checkbox" id="show-items">
+                                <label for="show-items">More Items</label>
+                                <ul>
+                                    <li><a href="#">Sub Menu 1</a></li>
+                                    <li><a href="#">Sub Menu 2</a></li>
+                                    <li><a href="#">Sub Menu 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="notification.html">Notification</a></li>
+                    <li><a href="maintenance.html">Maintenance</a></li>
+                    <div class="person">
+                        <img class ="personLogo" src="../images/personLogo.png">
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="workSpace">
+        <div class="title1"><h3>Stakeholder Information</h3></div>
+        <div class="content1">
+            <div class="contentBox">
+
+                <div class="formList">
+
+                    <form action="#">
+                        <div class="stakeholder-info">
+                            <label for="stakeholder-category">Stakeholder Category<span class="required">*</span>
+                            </label>
+                            <br><br>
+                            <span class="ac">
+                                <input type="radio" name="ac" value="AC">
+                                Advisory Council
+                            </span>
+                            <span class="twg">
+                                <input type="radio" name="twg" value="TWG">
+                                Technical Working Group
+                            </span>
+                            <span class="psmu">
+                                <input type="radio" name="psmu" value="PSMU"> 
+                                Police Strategy Management Unit
+                            </span>
+                        </div>
+                        <br><br>
+
+                        <div class="duration-info">
+                            <span class="duration-info">Duration</span><br><br>
+                            <span class="start-date">Start Date</span>
+                            <br>
+                            <input type="date" name="start date" required>
+                        </div>
+                        <br><br>
+
+                        <div class="acposition-info">
+                            <label for="ac-position">AC Position<span class="required">*</span>
+                            </label>
+                            <br>
+                            <select id="ac-post" name="ac-post">
+                            <option selected = "selected">Select One</option>
+                            <option value="post1">Position 1</option>
+                            <option value="post2">Position 2</option>
+                            <option value="post3">Position 3</option>
+                            </select>
+                        </div>
+                        <br><br>
+
+                        <div class="office-info">
+                            <span class="office-name">Office Name</span>
+                            <span class="office-address">Office Address</span>
+                            <br>
+                            <span class="office-name2">
+                            <input type="text" placeholder="e.g. ACSIS Department" name="office-number">
+                            </span>
+                            <span class="office-address2">
+                            <input type="text" placeholder="Street Address / Barangay / City" name="office-address">
+                            </span>
+                            
+                        </div>
+                        <br><br>
+
+                        
+                        <div class="unitoffice-info">
+                            <span class="primary-info">Primary Unit/Office</span>
+                        
+                            <span class="secondary-info">Secondary Unit/Office</span>
+                           
+                            <span class="tertiary-info">Tertiary Unit/Office</span>
+
+                            <span class="quarternary-info">Quarternary Unit/Office</span>
+                            <br>
+
+                            <span class="primary">
+                                <select id="primary-info" name="primary-info">
+                                    <option value=""disabled selected>Select Office</option>
+                                    <option value="office1">Office 1</option>
+                                    <option value="office2">Office 2</option>
+                                    <option value="office3">Office 3</option>
+                                </select>
+                            </span>
+
+                            <span class="secondary">
+                                <select id="secondary-info" name="secondary-info">
+                                    <option value=""disabled selected>Select Office</option>
+                                    <option value="office1">Office 1</option>
+                                    <option value="office2">Office 2</option>
+                                    <option value="office3">Office 3</option>
+                                </select>
+                            </span>
+
+                            <span class="tertiary">
+                                <select id="tertiary-info" name="tertiary-info">
+                                    <option value=""disabled selected>Select Office</option>
+                                    <option value="office1">Office 1</option>
+                                    <option value="office2">Office 2</option>
+                                    <option value="office3">Office 3</option>
+                                </select>
+                            </span>
+                            
+                            <span class="quarternary">
+                                <select id="quarternary-info" name="quarternary-info">
+                                    <option value=""disabled selected>Select Office</option>
+                                    <option value="office1">Office 1</option>
+                                    <option value="office2">Office 2</option>
+                                    <option value="office3">Office 3</option>
+                                </select>
+                            </span>
+                        </div>
+                        <br><br>
+
+                        <div class="acsector-info">
+                            <label for="ac-sector">AC Sector<span class="required">*</span>
+                            </label>
+                            <br>
+                            <select id="ac-sector" name="ac-sector">
+                            <option value="" disabled selected>Select One</option>
+                            <option value="sec1">Sector 1</option>
+                            <option value="sec2">Sector 2</option>
+                            <option value="sec2">Sector 3</option>
+                            </select>
+                        </div>
+
+                        <br><br>
+
+                        <input type="submit" value="Submit">
+                        </fieldset>
+                    </form>
+                </div>
+
+
+    <div class="three col">
+        <div class="loader" id="loader-1"></div>
+    </div>
+
+   
+
+    <script src="../js/loading.js "></script>
+
+</body>
+</html>
